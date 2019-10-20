@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyTable</title>
+    <style>
+        table,th,td{border-collapse: collapse;}
+    </style>
+</head>
+<body>
+    <Table border="1" style="width: 1000px" align="center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Remark</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <td>100</td>     
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td> 
+            <td>Male</td>
+            <td>E_204</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <td>100</td>
+        </tr>
+    </Table>
+    <br><br><br><br>
+    <!--Colspan and Rowspan-->
+    <Table border="1" style="width: 1000px" align="center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Remark</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <td rowspan="4">100</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <!-- <td>100</td> -->
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td>
+            <td>Male</td>
+            <td>E_204</td>
+            <!-- <td>100</td>      -->
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Pann SengLong</td> 
+            <td>Male</td>
+            <td>E_204</td>
+            <!-- <td>100</td> -->
+        </tr>
+        <tr>
+            <td colspan="4">001</td>
+            <!-- <td>Pann SengLong</td> -->
+            <!-- <td>Male</td> -->
+            <!-- <td>E_204</td> -->
+            <td>100</td>
+        </tr>
+
+        <!--Table Self Test-->
+    </Table>
+    <br><br><br><br>
+    <table border="1" style="width: 1000px" align="center">
+        <tr>
+            <th colspan="4">Invoice</th>
+            <!-- <th></th>
+            <th></th>
+            <th></th> -->
+        </tr>
+        <tr align="cente    r">
+            <td>No</td>
+            <td colspan="2">Item</td>
+            <!-- <td></!--> 
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">
+                <ul>
+                    <li>Coca Cola</li>
+                    <li>Pepsi</li>
+                </ul>
+            </td>
+            <td rowspan="2">Image</td>
+            <td >10$</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <!-- <td>Pepsi</td> -->
+            <!-- <td>Image</td> -->
+            <td>10$</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>
+                <ol>
+                    <li>Food</li>
+                    <li>Rice</li>
+                </ol>
+            </td>
+            <td rowspan="2"></td>
+            <td rowspan="2">30$</td>
+        </tr>
+        <tr>
+                <!-- <td>2</td> -->
+                <!-- <td>Rice</!-->
+                <!-- <td></!--> 
+                <!-- <td>30$</!--> 
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right">Total:</td>
+            <!-- <td></td>
+            <td></td> -->
+            <td>50$</td>
+        </tr>
+    </table>
+</body>
